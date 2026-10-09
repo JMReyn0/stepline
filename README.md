@@ -5,7 +5,7 @@ middle of a step; it resumes from where the lease was lost, not from scratch —
 and there's a test that actually does this (`SIGKILL`s a real child process
 mid-step) rather than asserting it in a design doc.
 
-![ci](https://github.com/justinmreynolds93-afk/stepline/actions/workflows/ci.yml/badge.svg)
+![ci](https://github.com/JMReyn0/stepline/actions/workflows/ci.yml/badge.svg)
 ![license](https://img.shields.io/badge/license-MIT-blue)
 ![node](https://img.shields.io/badge/node-%E2%89%A520-brightgreen)
 
@@ -99,7 +99,7 @@ a debugging session (`stepline history <id>`).
 Not on npm yet — install straight from the tagged release:
 
 ```bash
-npm install github:justinmreynolds93-afk/stepline#v0.1.1 pg
+npm install github:JMReyn0/stepline#v0.1.1 pg
 npx stepline migrate   # or call migrate(pool) yourself at startup
 ```
 
