@@ -3,7 +3,7 @@
 ## 0.1.1
 
 - Add a `prepare` script (`tsc -p tsconfig.json`) so installing stepline as a
-  git dependency (`"stepline": "github:justinmreynolds93-afk/stepline#v0.1.1"`)
+  git dependency (`"stepline": "github:JMReyn0/stepline#v0.1.1"`)
   actually produces `dist/` — `main`/`bin`/`types` all point there, and `dist/`
   itself is gitignored, so without this a git-based install resolved to
   nothing. Not needed when installing from a published npm tarball (which
